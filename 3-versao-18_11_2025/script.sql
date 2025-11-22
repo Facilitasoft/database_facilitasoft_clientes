@@ -16,3 +16,4 @@ VALUES
 	('2', 'plano_academia_basico', 'gestao_academia:basico', 'web--gestao-academia'),
 	('3', 'plano_academia_prata',  'gestao_academia:prata',  'web--gestao-academia'),
 	('4', 'plano_academia_ouro',   'gestao_academia:ouro',   'web--gestao-academia');
+

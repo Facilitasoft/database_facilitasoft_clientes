@@ -6,3 +6,6 @@ drop column nome_role;
 
 alter table permissao 
 add column nome_role text not null;
+
+alter table permissao
+add column client_id_keycloak text not null

@@ -19,3 +19,4 @@ VALUES
 
 ALTER TABLE clientes.fatura_assinatura
 ADD COLUMN id_referencia_cobranca_gateway TEXT NOT NULL;
+

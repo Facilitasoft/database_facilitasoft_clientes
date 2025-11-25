@@ -22,3 +22,8 @@ ADD COLUMN id_referencia_cobranca_gateway TEXT NOT NULL;
 
 alter table fatura_assinatura
 add column link_pagamento text not null;
+
+
+ALTER TYPE situacao_fatura_enum ADD VALUE 'PROCESSANDO_ESTORNO';
+ALTER TYPE situacao_fatura_enum ADD VALUE 'ESTORNADO';
+ALTER TYPE situacao_fatura_enum ADD VALUE 'PROCESSANDO_PAGAMENTO';
